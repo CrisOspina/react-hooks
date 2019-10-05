@@ -1,20 +1,18 @@
-## App https://free-photos-pixabay.netlify.com/ 😎
+## App 😎 https://free-photos-pixabay.netlify.com/ 😎
 
 ### Frontend css Bulma https://bulma.io/
 
 ### Icons react https://react-icons.netlify.com/#/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). ⚛️
+### `npm install`
 
-`npm install`
+- Log In https://pixabay.com/api/docs/
 
-Log In https://pixabay.com/api/docs/
+- Generate key by pixabay
 
-Generate key by pixabay
+- Create `.env.development && .env.production`
 
-Create `.env.development && .env.production`
-
-`REACT_APP_KEY=##############################`
+- `REACT_APP_KEY=##############################`
 
 ## Available Scripts
 
@@ -32,3 +30,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). ⚛️

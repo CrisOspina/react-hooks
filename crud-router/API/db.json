@@ -13,30 +13,34 @@
       "categoria": "cortes"
     },
     {
-      "nombrePlatillo": {
-        "value": "a"
-      },
-      "precioPlatillo": "3",
-      "categoria": "postres",
-      "id": 3
-    },
-    {
-      "nombrePlatillo": {
-        "value": "veggie cheeso"
-      },
-      "precioPlatillo": {
-        "value": "43000"
-      },
-      "categoria": {
-        "value": "postres"
-      },
-      "id": 4
-    },
-    {
       "nombrePlatillo": "ensal",
       "precioPlatillo": "45999",
       "categoria": "cortes",
       "id": 5
+    },
+    {
+      "nombrePlatillo": "agua",
+      "precioPlatillo": "3000",
+      "categoria": "bebida",
+      "id": 6
+    },
+    {
+      "nombrePlatillo": "ddff34",
+      "precioPlatillo": "34",
+      "categoria": "ensalada",
+      "id": 7
+    },
+    {
+      "nombrePlatillo": "asdfads",
+      "precioPlatillo": "443",
+      "categoria": "cortes",
+      "id": 8
+    },
+    {
+      "nombrePlatillo": "hhh",
+      "precioPlatillo": "44",
+      "categoria": "cortes",
+      "id": 9
     }
   ]
 }

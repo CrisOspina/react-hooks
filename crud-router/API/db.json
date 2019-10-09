@@ -1,0 +1,42 @@
+{
+  "restaurant": [
+    {
+      "id": 1,
+      "precioPlatillo": "10000",
+      "nombrePlatillo": "Cheescake",
+      "categoria": "postres"
+    },
+    {
+      "id": 2,
+      "precioPlatillo": "12000",
+      "nombrePlatillo": "Rib eye veggie",
+      "categoria": "cortes"
+    },
+    {
+      "nombrePlatillo": {
+        "value": "a"
+      },
+      "precioPlatillo": "3",
+      "categoria": "postres",
+      "id": 3
+    },
+    {
+      "nombrePlatillo": {
+        "value": "veggie cheeso"
+      },
+      "precioPlatillo": {
+        "value": "43000"
+      },
+      "categoria": {
+        "value": "postres"
+      },
+      "id": 4
+    },
+    {
+      "nombrePlatillo": "ensal",
+      "precioPlatillo": "45999",
+      "categoria": "cortes",
+      "id": 5
+    }
+  ]
+}

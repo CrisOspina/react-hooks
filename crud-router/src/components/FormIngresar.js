@@ -1,5 +1,8 @@
 import React, { Fragment, useState } from 'react'
 import axios from 'axios'
+import { withRouter } from 'react-router-dom'
+
+import Swal from 'sweetalert2'
 
 // Components
 import { RowForm, Error } from './index'
@@ -8,7 +11,7 @@ import { RowForm, Error } from './index'
 import { useFormInput } from '../hooks/useFormInput'
 // import { usePOST } from '../hooks/usePOST'
 
-export const FormIngresar = () => {
+const FormIngresar = ({ history }) => {
   const [error, setError] = useState(false)
   const nombrePlatillo = useFormInput('')
   const precioPlatillo = useFormInput('')
@@ -110,10 +113,24 @@ export const FormIngresar = () => {
         precioPlatillo: precioPlatillo.value,
         categoria: categoria.value,
       })
-      console.log(resultado)
+      if (resultado.status === 201) {
+        Swal.fire({
+          type: 'success',
+          title: 'Producto creado',
+          text: 'Se inserto correctamente',
+        })
+      }
     } catch (error) {
       console.log(error.message)
+      Swal.fire({
+        type: 'error',
+        title: 'Oops...',
+        text: 'Hubo un error, verifica',
+      })
     }
+
+    // Redirigir al usuario
+    history.push('/productos')
   }
 
   return (
@@ -135,3 +152,5 @@ export const FormIngresar = () => {
     </Fragment>
   )
 }
+
+export default withRouter(FormIngresar)
